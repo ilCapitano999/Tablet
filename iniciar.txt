@@ -1,0 +1,26 @@
+iniciar el repositorio:
+1)Lo primero que tengo que hacer es posicionarme en la carpeta que quiero iniciarlo 
+y luego click derecho y presionamos en git bash here, de esta manera me posiciono en la carpeta que yo quiero
+
+2)una vez que hice lo anterior me va a abrir la terminal sola, pero debo iniciarlo usando el siguiente codigo
+
+git init
+
+si salio todo bien me va a figurar:
+Initialized empty Git repository in D:/xxxx/xxxx/xxx/.git/ (depende de tu ruta)
+
+3) lo configuro para asociarlo a mi repositorio remoto:
+
+git config user.name "xxxxxx" (pones el nombre de tu repositorio)
+
+4) asosiamos el mail que tiene asociado mi repo remoto
+
+git config user.email "xxxxxx@gmail.com"
+
+5) tengo que ir a mi repo remoto y extraer la url que me dio cuando lo cree
+para obtenerla voy a:
+estando en el repositorio => code => local y me va a figurar una Https:// la copio y pego en la terminal
+https://github.com/xxxx/xxxxxgit.git
+
+6) le doy el comando
+ git remote add origin https://github.com/xxxx/xxxx.git
