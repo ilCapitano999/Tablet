@@ -1,0 +1,17 @@
+Para cargar los archivos
+
+1)me posiciono en el lugar que deseo con click derecho git bash here
+
+2)con ls obtengo el listado de todo lo que hay dentro de la carpeta
+
+3)elegir el archivo a cargar y poner el comando
+git add xxxxxx.txt
+
+4)con status vemos si lo reconocio
+git status
+
+5)ahora debo confirmar la carga del archivo con
+git commit -m "xxxxxx" (asigno el nombre que quiero)
+
+6) con el siguiente comando confirmo la carga (ojo si usan master o maim)
+git push -u origin master o main 
