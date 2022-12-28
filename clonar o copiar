@@ -1,0 +1,18 @@
+si quiero clonar un repositorio completo  a una pc nueva por ejemplo uso 
+git clone
+1) lo primero que hago es posicionarme en la carpeta que quiero bajar  mi remoto
+haciendo click derecho git bash here
+2) copio la direccion del remoto la que figura en la barra de busqueda de google
+3) git clone https://github.com/xxxx/xxxx/xxx/master
+4) enter, me empieza a clonar el repositorio
+
+
+
+ahora si solo queremos cargar un archivo usamos pull
+lo màs importante es POSICIONARME EN LA CARPETA QUE DESEO
+lo puedo hacer con los comandos de consola o con click derecho git bash here
+
+git pull (apodo que utilizamos) y luego la rama creada (puede ser master/main/la que hayamos creado)
+apretando enter, git actualiza y recorre hasta encontrar los errores
+
+git pull origin master
